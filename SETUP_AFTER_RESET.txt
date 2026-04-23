@@ -1,0 +1,52 @@
+=========================================================
+HOW TO RECOVER YOUR PROJECT AFTER A LAPTOP RESET
+=========================================================
+
+If you reset your laptop, don't worry! All your work is safe on GitHub. 
+Follow these steps exactly to get everything running again:
+
+STEP 1: Install the Tools
+-------------------------
+1. Download and Install Python from: https://www.python.org/
+2. Download and Install Node.js from: https://nodejs.org/
+3. Download and Install Git from: https://git-scm.com/
+4. Download and Install Ollama from: https://ollama.com/
+
+STEP 2: Download your Code
+--------------------------
+1. Open your terminal (PowerShell or CMD).
+2. Type this command to download your project:
+   git clone https://github.com/YashModi2005/Question_Answering_System.git
+3. Go into the folder:
+   cd Question_Answering_System
+
+STEP 3: Prepare the Backend (AI)
+-------------------------------
+1. Open Ollama and run this command to get the AI model back:
+   ollama run llama3.2:1b
+2. Inside the project folder, go to the backend:
+   cd backend
+3. Install the Python requirements:
+   pip install -r requirements.txt
+4. Start the backend:
+   python app.py
+
+STEP 4: Prepare the Frontend (UI)
+--------------------------------
+1. Open a SECOND terminal window.
+2. Go to the frontend folder:
+   cd Question_Answering_System/frontend
+3. Install the interface tools:
+   npm install
+4. Start the dashboard:
+   npm run dev
+
+STEP 5: Access the System
+-------------------------
+1. Open your browser and go to: http://localhost:5173
+2. Log in with your admin credentials.
+3. Everything is back! You can now upload PDFs and chat as before.
+
+TIP: Keep your GitHub link (https://github.com/YashModi2005/Question_Answering_System) 
+saved in your email so you never lose it!
+=========================================================
