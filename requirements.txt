@@ -1,0 +1,14 @@
+pandas
+numpy
+nltk
+scikit-learn
+fastapi
+uvicorn
+python-multipart
+pickle-mixin
+jinja2
+mysql-connector-python
+sentence-transformers
+faiss-cpu
+requests
+torch

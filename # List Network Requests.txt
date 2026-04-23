@@ -1,0 +1,38 @@
+# List Network Requests
+
+| reqid | method | url | status |
+|---|---|---|---|
+| 112 | GET | http://localhost:5173/ | success - 200 |
+| 113 | GET | http://localhost:5173/@vite/client | failed - 304 |
+| 114 | GET | http://localhost:5173/src/main.jsx?t=1773393356686 | success - 200 |
+| 115 | GET | http://localhost:5173/@react-refresh | failed - 304 |
+| 116 | GET | http://localhost:5173/node_modules/.vite/deps/react.js?v=efd0666c | success - 200 |
+| 117 | GET | http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=efd0666c | success - 200 |
+| 118 | GET | http://localhost:5173/src/index.css | failed - 304 |
+| 119 | GET | http://localhost:5173/src/App.jsx?t=1773393356686 | failed - 304 |
+| 120 | GET | http://localhost:5173/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=efd0666c | success - 200 |
+| 121 | GET | http://localhost:5173/node_modules/.vite/deps/react-Na5-BvaJ.js?v=efd0666c | success - 200 |
+| 122 | GET | http://localhost:5173/node_modules/.vite/deps/react-dom.js?v=efd0666c | success - 200 |
+| 123 | GET | http://localhost:5173/node_modules/vite/dist/client/env.mjs | failed - 304 |
+| 124 | GET | http://localhost:5173/src/App.css?t=1773392866072 | failed - 304 |
+| 125 | GET | https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap | success - 200 |
+| 126 | GET | https://fonts.gstatic.com/s/plusjakartasans/v12/LDIoaomQNQcsA88c7O9yZ4KMCoOg4Ko20yw.woff2 | success - 200 |
+| 127 | OPTIONS | http://localhost:8000/signup | success - 200 |
+| 128 | POST | http://localhost:8000/signup | failed - 404 |
+| 129 | GET | http://localhost:5173/ | failed - 304 |
+| 130 | GET | http://localhost:5173/@vite/client | failed - 304 |
+| 131 | GET | http://localhost:5173/src/main.jsx?t=1773393356686 | failed - 304 |
+| 132 | GET | http://localhost:5173/@react-refresh | failed - 304 |
+| 133 | GET | http://localhost:5173/node_modules/.vite/deps/react.js?v=efd0666c | success - 200 |
+| 134 | GET | http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=efd0666c | success - 200 |
+| 135 | GET | http://localhost:5173/src/index.css | failed - 304 |
+| 136 | GET | http://localhost:5173/src/App.jsx?t=1773393356686 | failed - 304 |
+| 137 | GET | http://localhost:5173/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=efd0666c | success - 200 |
+| 138 | GET | http://localhost:5173/node_modules/.vite/deps/react-Na5-BvaJ.js?v=efd0666c | success - 200 |
+| 139 | GET | http://localhost:5173/node_modules/.vite/deps/react-dom.js?v=efd0666c | success - 200 |
+| 140 | GET | http://localhost:5173/node_modules/vite/dist/client/env.mjs | failed - 304 |
+| 141 | GET | http://localhost:5173/src/App.css?t=1773392866072 | failed - 304 |
+| 142 | GET | https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap | success - 200 |
+| 143 | GET | https://fonts.gstatic.com/s/plusjakartasans/v12/LDIoaomQNQcsA88c7O9yZ4KMCoOg4Ko20yw.woff2 | success - 200 |
+| 144 | OPTIONS | http://localhost:8000/login | success - 200 |
+| 145 | POST | http://localhost:8000/login | failed - 404 |
