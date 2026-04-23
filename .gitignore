@@ -42,7 +42,6 @@ yarn-error.log*
 
 # Project Specific
 backend/sessions/
-dataset/
 model/
 backend/faiss_index.bin
 backend/metadata.pkl
