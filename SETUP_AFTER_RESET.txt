@@ -1,52 +1,74 @@
 =========================================================
-HOW TO RECOVER YOUR PROJECT AFTER A LAPTOP RESET
+🌟 BEGINNER'S GUIDE: HOW TO SETUP & RUN THIS PROJECT 🌟
 =========================================================
 
-If you reset your laptop, don't worry! All your work is safe on GitHub. 
-Follow these steps exactly to get everything running again:
+Welcome! This guide is written for everyone, even if you have never 
+touched code before. Follow these steps to get the AI running!
 
-STEP 1: Install the Tools
--------------------------
-1. Download and Install Python from: https://www.python.org/
-2. Download and Install Node.js from: https://nodejs.org/
-3. Download and Install Git from: https://git-scm.com/
-4. Download and Install Ollama from: https://ollama.com/
+STEP 1: INSTALLING THE ESSENTIAL TOOLS
+--------------------------------------
+You need 4 free tools on your computer to run the project. Download 
+them from these official links:
 
-STEP 2: Download your Code
---------------------------
-1. Open your terminal (PowerShell or CMD).
-2. Type this command to download your project:
+1. PYTHON: Go to https://www.python.org/ and click "Download Python".
+   -> IMPORTANT: When installing, check the box that says "Add Python to PATH".
+2. NODE.JS: Go to https://nodejs.org/ and download the "LTS" version.
+3. GIT: Go to https://git-scm.com/ and download for Windows. 
+4. OLLAMA (The AI Brain): Go to https://ollama.com/ and click Download.
+
+STEP 2: DOWNLOADING YOUR CODE FROM GITHUB
+-----------------------------------------
+1. Open your Start Menu and type "PowerShell". Open it.
+2. We want to put the code on your Desktop. Type this and press Enter:
+   cd Desktop
+3. Now, type this to download the project:
    git clone https://github.com/YashModi2005/Question_Answering_System.git
-3. Go into the folder:
-   cd Question_Answering_System
+4. You will now see a new folder on your Desktop called "Question_Answering_System".
 
-STEP 3: Prepare the Backend (AI)
--------------------------------
-1. Open Ollama and run this command to get the AI model back:
+STEP 3: STARTING THE AI (BACKEND)
+---------------------------------
+1. Open Ollama (find the icon in your hidden icons/tray near the clock).
+2. In your PowerShell window, type this to get the AI model:
    ollama run llama3.2:1b
-2. Inside the project folder, go to the backend:
-   cd backend
-3. Install the Python requirements:
-   pip install -r requirements.txt
-4. Start the backend:
-   python app.py
+   (Wait for it to finish downloading. Once it's done, you can close that window).
 
-STEP 4: Prepare the Frontend (UI)
---------------------------------
-1. Open a SECOND terminal window.
+3. Open a NEW PowerShell window and go to the backend folder:
+   cd Desktop/Question_Answering_System/backend
+4. Install the AI's requirements by typing:
+   pip install -r requirements.txt
+5. Start the AI server:
+   python app.py
+   -> Keep this window open! If you close it, the AI will stop working.
+
+STEP 4: STARTING THE DASHBOARD (FRONTEND)
+-----------------------------------------
+1. Open ANOTHER (Second) PowerShell window.
 2. Go to the frontend folder:
-   cd Question_Answering_System/frontend
-3. Install the interface tools:
+   cd Desktop/Question_Answering_System/frontend
+3. Prepare the dashboard by typing:
    npm install
 4. Start the dashboard:
    npm run dev
+   -> You will see a link like http://localhost:5173.
 
-STEP 5: Access the System
--------------------------
-1. Open your browser and go to: http://localhost:5173
-2. Log in with your admin credentials.
-3. Everything is back! You can now upload PDFs and chat as before.
+STEP 5: LOGGING IN
+------------------
+1. Open your Google Chrome or Edge browser.
+2. Type http://localhost:5173 in the address bar.
+3. Use these details to log in:
+   - Username: Admin
+   - Password: 123456
 
-TIP: Keep your GitHub link (https://github.com/YashModi2005/Question_Answering_System) 
-saved in your email so you never lose it!
-=========================================================
+STEP 6: HOW TO USE IT
+---------------------
+- CHAT: Type any question in the bottom bar and press Enter.
+- UPLOAD PDF: Click the Paperclip icon (📎) to upload a document.
+- NEW CHAT: Click "New Chat" in the sidebar to start a fresh session.
+
+---------------------------------------------------------
+💡 TROUBLESHOOTING TIPS:
+- If "pip" or "python" doesn't work: Make sure you checked "Add to PATH" during installation.
+- If it's slow: The first time you ask a question, the AI needs a few seconds to "wake up".
+- If you get an error: Make sure both PowerShell windows (Backend and Frontend) are still running.
+---------------------------------------------------------
+Developed by Yash Modi - AI Knowledge Assistant 🚀
