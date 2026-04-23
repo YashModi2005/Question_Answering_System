@@ -14,7 +14,8 @@ them from these official links:
    -> IMPORTANT: When installing, check the box that says "Add Python to PATH".
 2. NODE.JS: Go to https://nodejs.org/ and download the "LTS" version.
 3. GIT: Go to https://git-scm.com/ and download for Windows. 
-4. OLLAMA (The AI Brain): Go to https://ollama.com/ and click Download.
+4. GIT LFS (For large data): Go to https://git-lfs.com/ and click Download.
+5. OLLAMA (The AI Brain): Go to https://ollama.com/ and click Download.
 
 STEP 2: DOWNLOADING YOUR CODE FROM GITHUB
 -----------------------------------------
@@ -24,6 +25,10 @@ STEP 2: DOWNLOADING YOUR CODE FROM GITHUB
 3. Now, type this to download the project:
    git clone https://github.com/YashModi2005/Question_Answering_System.git
 4. You will now see a new folder on your Desktop called "Question_Answering_System".
+5. IMPORTANT: Type this to enable the large dataset:
+   cd Question_Answering_System
+   git lfs install
+   git lfs pull
 
 STEP 3: STARTING THE AI (BACKEND)
 ---------------------------------
